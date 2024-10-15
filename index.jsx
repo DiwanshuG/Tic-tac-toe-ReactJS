@@ -14,7 +14,7 @@ export default function TicTacToe() {
   const [squares, setSquares] = useState(Array(9).fill(""));
   const [isXturn, setIsxTurn] = useState(true);
   const [status, setStatus] = useState("");
-  const [celebration, setCelebration] = useState(false); // Confetti state
+  const [celebration, setCelebration] = useState(false);
 
   function getWinner(squares) {
     const winningPattern = [
